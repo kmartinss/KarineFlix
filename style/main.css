@@ -15,12 +15,15 @@ body {
 }
 
 header .container {
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header .logo {
     color: var(--color);
     font-size: 40px;
+    margin-left: 5px;
 }
 
 header nav a {
